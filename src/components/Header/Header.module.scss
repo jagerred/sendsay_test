@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 30px;
+	color: #4d5562;
+}
+.switchButtons {
+	display: flex;
+	padding: 1px;
+	background-color: #f3f4f6;
+	border-radius: 6px;
+}
+.selectorIcon {
+	transform: rotate(90deg);
+}

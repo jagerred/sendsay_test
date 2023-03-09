@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 16px;
+	padding-bottom: 17px;
+	border-radius: 6px;
+	border: 1px solid #e2e3e5;
+	background-color: white;
+	font-weight: 500;
+	&:hover {
+		outline: 2px solid #5d5fef;
+		outline-offset: -2px;
+	}
+	&:active {
+		background-color: #5d5fef;
+		color: white;
+	}
+}
+.zeroButton {
+	grid-column: 1/3;
+}

@@ -1,0 +1,8 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 8px;
+	padding: 4px;
+	border-radius: 4px;
+	box-shadow: 0 4px 6px rgba($color: #000000, $alpha: 0.25);
+}

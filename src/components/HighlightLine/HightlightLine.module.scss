@@ -1,0 +1,32 @@
+@import 'assets/styles/vars.scss';
+.container {
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background-color: unset;
+}
+.active {
+	background-color: var(--color-blue);
+	&::after {
+		content: '';
+		position: absolute;
+		top: -2px;
+		right: -4px;
+		width: 6px;
+		height: 6px;
+		background-color: inherit;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		top: -2px;
+		left: -4px;
+		width: 6px;
+		height: 6px;
+		background-color: inherit;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+}

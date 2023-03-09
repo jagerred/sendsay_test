@@ -1,0 +1,19 @@
+@import 'assets/styles/vars.scss';
+.container {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	padding: 8px 12px;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+.active {
+	background-color: white;
+	outline: 1px solid #e2e3e5;
+	outline-offset: -1px;
+	color: var(--color-blue);
+}
+.text {
+	color: #4d5562;
+}

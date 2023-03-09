@@ -1,0 +1,10 @@
+.disabled {
+	opacity: 50%;
+	pointer-events: none;
+}
+.grab {
+	cursor: grab;
+}
+.noGrab {
+	cursor: default;
+}

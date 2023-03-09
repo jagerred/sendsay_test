@@ -1,0 +1,17 @@
+@import 'assets/styles/vars.scss';
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 127px;
+}
+.img {
+	margin-bottom: 12px;
+}
+.mainText {
+	color: var(--color-blue);
+	margin-bottom: 4px;
+}
+.additionalText {
+	font-size: 12px;
+}
